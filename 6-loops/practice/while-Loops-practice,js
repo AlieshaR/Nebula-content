@@ -1,0 +1,30 @@
+// Reminder: control-c will kill an infinitely running node-process
+
+// 1.   Write a while loop that loops over a string until it finds the letter a
+const letters = alph[`a , b , c, d , e , f , g , h , i , j , k , l , m , n , o , p , q , r , s , t , u , v , w , x , y , z `]
+      let i = 0;
+      while(true){
+          if(letters[i] === 0){
+               console.log("we Found the 0")
+               break;
+          }    else {
+               i++
+               console.log("Still searching...");
+          }
+      } 
+
+// 2.   Write a while loop that logs to the console the 'count' until the 'count' reaches 100
+//      Inside the while loop be sure to increase count by some number
+      const Numbers = numsArray
+            let i = 10 ;
+            while(true){
+                if(Numbers[i] === 100){
+                    console.log("We found the 100");
+                    break;
+                }   else {
+                    i++
+                    console.log("Still searching...")
+                }
+            }
+
+            console.log(`numsArray`)
